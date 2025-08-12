@@ -27,7 +27,7 @@ mongoose.connect(process.env.MONGO_URI)
   })
   .catch(err => console.error('Mongo connect error:', err));
 
-const mongoose = require('mongoose');
+
 
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log("✅ MongoDB connected"))
