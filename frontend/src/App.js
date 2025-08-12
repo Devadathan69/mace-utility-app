@@ -22,5 +22,9 @@ function App() {
     </div>
   );
 }
+fetch("https://mace-utility-app.onrender.com/api/data")
+  .then(res => res.json())
+  .then(data => console.log(data));
+
 
 export default App;
